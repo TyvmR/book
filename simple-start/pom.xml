@@ -44,7 +44,18 @@
 			<version>1.2.17</version>
 		</dependency>
 	</dependencies>
-
+	<repositories>
+		<repository>
+			<id>aliyun</id>
+			<name>Aliyun Maven Repository</name>
+			<url>https://maven.aliyun.com/repository/public</url>
+		</repository>
+		<repository>
+			<id>cloudwise</id>
+			<name>Aliyun Maven Repository</name>
+			<url>https://maven.aliyun.com/repository/public</url>
+		</repository>
+	</repositories>
 	<build>
 		<plugins>
 			<plugin>
